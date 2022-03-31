@@ -1,15 +1,15 @@
 # Contact Center Accelerator for PVA & AudioCodes Solution
 
 The goal of a modern contact center solution is to provide a customer experience that rivals that of
-an experienced human agent and do that at scale and at a fraction of the cost of a triditional
+an experienced human agent and do that at scale and at a fraction of the cost of a traditional
 contact center.  Achieving that goal requires a solution that can transform conversation into a
 coordinated business process that weaves together a core set of solution elements to respond
 effectively. This solution accelerator provides the building blocks and blueprint for how to use Power
 Virtual Agent and AudioCodes VoiceAI Connect Cloud Edition to build a modern contact center assistant
-consistant with contact center best practices.
+consistent with contact center best practices.
 
 #### <a name="HighLevelSubsystemOverview"></a>Core Contact Center Solution Elements:
-![Figure 1: High-level Subsystem Overview](doc/ContactCenterCoreElements.png)
+![Figure 1: High-level Subsystem Overview](/doc/ContactCenterCoreElements.png)
 
 ## Building a Modern Contact Center
 
@@ -36,7 +36,7 @@ To sign up for a free trial account for Power Virtual Agents click [here](https:
 Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/signing_up_to_cloud.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257C_____2)
 to sign up for a free trial account for AudioCodes Voice AI Connect Cloud Edition.
 
-Alternatively, you can also subcribe to AudioCodes Voice AI Connect Cloud Edition from Azure Market
+Alternatively, you can also subscribe to AudioCodes Voice AI Connect Cloud Edition from Azure Market
 Place by following the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Combined/Accessing%20VoiceAi%20Connect%20Cloud%20from%20Azure.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257C_____1)
 
 #### Install Bot Framework Composer
@@ -57,7 +57,7 @@ git clone https://github.com/managedcoder/???
 ```
 
 2) **Import the PVA Contact Center Accelerator Solution**  
-The PVA Contact Center Assistant has been shared as a Power Virutal Agent solution when will need
+The PVA Contact Center Assistant has been shared as a Power Virtual Agent solution when will need
 to be imported into your Power Virtual Agent environment. The easiest way to do that is to watch
 [this short 2 minute video](https://www.microsoft.com/en-us/videoplayer/embed/RE4CsHl?postJsllMsg=true)
 that explain how to import a solution or follow the instructions [here](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-export-import-bots#import-the-solution-with-your-bot).
@@ -74,7 +74,7 @@ and open it.
 Audio logos are identifiable sound effects used in marketing and branding and this accelerator shows
 how to play and audio logo during the greeting when the call begins.  The AudioCodes VoiceAI Connect
 solution requires that audio files be publicly accessible and the best way to do that is to create an
-Azure Storage resource and then use the Storage Browser to create a Blob container (name it anthying
+Azure Storage resource and then use the Storage Browser to create a Blob container (name it anything
 you like) and then upload a short audio file and select it to get its URL. The accelerator folder,
 AudioLogos, has two sample audio files you can use to explore this capability.  
 .  
@@ -82,11 +82,11 @@ Once you've uploaded one or more audio files, you'll need to modify two PVA Topi
 and HowToSendSSML.  Use the URL to the audio file you uploaded to replace the URL string in the
 ```<audio>``` tag value of the ```ssml``` input parameter to the vaicSendSSMLmessage redirect
 action.  
-![Figure 2: High-level Subsystem Overview](doc/vaicSendSSMLmessage.png)
+![Figure 2: High-level Subsystem Overview](/doc/vaicSendSSMLmessage.png)
 
 4) **Deploy Mock Customer Service**  
 [Figure 1](#HighLevelSubsystemOverview) shows the core solution elements of a modern contact center
-and some of one of the most common scenarios require integation with a customer service solution.
+and some of one of the most common scenarios require integration with a customer service solution.
 There are a number of popular commercial customer service solutions available and while each will
 have its own integration APIs, the approach to calling these APIs from a PVA bot is the same and
 this is demonstrated in this accelerator by using a mock, surrogate customer service represented by
@@ -111,11 +111,11 @@ Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/
 to create a telephony bot definition in the AudioCodes VoiceAI Connect portal and set its configuration
 as you see below  
 5.2.1 **Bot Details Tab**  
-![Bot Details Tab](doc/vaicBotDetailsTab.png)  
+![Bot Details Tab](/doc/vaicBotDetailsTab.png)  
 5.2.2 **Bot Setting Tab**  
-![Bot Setting Tab](doc/vaicBotSettingsTab.png)  
+![Bot Setting Tab](/doc/vaicBotSettingsTab.png)  
 5.2.3 **Bot Features Tab**  
-![Bot Features Tab](doc/vaicFeaturesTab.png)  
+![Bot Features Tab](/doc/vaicFeaturesTab.png)  
 5.3 **Change Settings of PVA Topic Actions**  
 The following PVA Topics will need to be update now that the accelerator is setup: HowToMakeOutboundCall,
 HowToTransferCall, HowToSendSSML, and Greeting.  The first two need the numberToCall to be update with
@@ -126,7 +126,7 @@ can't be sure this works with all cell phone carriers.
 The last two Topics need to update the URL to point to the audio files you uploaded to Blob Storage.
 
 ### <a name="ExploreContactCenterSolutionAccelerator"></a>Explore Contact Center Solution Accelerator
-The accelerator is spread across several portals and a number of assests so [this video gives a quick
+The accelerator is spread across several portals and a number of assets so [this video gives a quick
 tour](http://aka.ms/pva-vaicc-tour) of all it's various elements and should prepare you to be able to
 effectively explore on you own.
 
