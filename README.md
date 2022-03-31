@@ -53,7 +53,7 @@ Getting started...
 The PVA/AudioCodes Contact Center Accelerator repo has everything you'll need to get the solution
 up and running and to get started you'll need to clone the repo with the following console command:  
 ```
-git clone https://github.com/managedcoder/???
+git clone https://github.com/managedcoder/PVAAudioCodesCC
 ```
 
 2) **Import the PVA Contact Center Accelerator Solution**  
