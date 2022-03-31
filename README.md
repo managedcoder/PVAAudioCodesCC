@@ -82,7 +82,7 @@ Once you've uploaded one or more audio files, you'll need to modify two PVA Topi
 and HowToSendSSML.  Use the URL to the audio file you uploaded to replace the URL string in the
 ```<audio>``` tag value of the ```ssml``` input parameter to the vaicSendSSMLmessage redirect
 action.  
-![Figure 2: High-level Subsystem Overview](/doc/vaicSendSSMLmessage.png)
+![Figure 2: High-level Subsystem Overview](Doc/vaicSendSSMLmessage.png)
 
 4) **Deploy Mock Customer Service**  
 [Figure 1](#HighLevelSubsystemOverview) shows the core solution elements of a modern contact center
@@ -111,11 +111,11 @@ Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/
 to create a telephony bot definition in the AudioCodes VoiceAI Connect portal and set its configuration
 as you see below  
 5.2.1 **Bot Details Tab**  
-![Bot Details Tab](/doc/vaicBotDetailsTab.png)  
+![Bot Details Tab](Doc/vaicBotDetailsTab.png)  
 5.2.2 **Bot Setting Tab**  
-![Bot Setting Tab](/doc/vaicBotSettingsTab.png)  
+![Bot Setting Tab](Doc/vaicBotSettingsTab.png)  
 5.2.3 **Bot Features Tab**  
-![Bot Features Tab](/doc/vaicFeaturesTab.png)  
+![Bot Features Tab](Doc/vaicFeaturesTab.png)  
 5.3 **Change Settings of PVA Topic Actions**  
 The following PVA Topics will need to be update now that the accelerator is setup: HowToMakeOutboundCall,
 HowToTransferCall, HowToSendSSML, and Greeting.  The first two need the numberToCall to be update with
