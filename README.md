@@ -9,7 +9,7 @@ Virtual Agent and AudioCodes VoiceAI Connect Cloud Edition to build a modern con
 consistent with contact center best practices.
 
 #### <a name="HighLevelSubsystemOverview"></a>Core Contact Center Solution Elements:
-![Figure 1: High-level Subsystem Overview](~/doc/ContactCenterCoreElements.png)
+![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
 
 ## Building a Modern Contact Center
 
