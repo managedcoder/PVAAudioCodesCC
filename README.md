@@ -65,7 +65,7 @@ If you watch the video, you can skip past the initial discussion of how to expor
 finish this task faster.  
 .  
 The solution zip is called PVAAudioCodesContactCenterAccelerator101_1_0_0_1.zip and can be found in
-the root of the project folder.  
+the root project folder.  
 .  
 Once you've imported the solution, you can browse to the [PVA portal](https://web.powerva.microsoft.com)
 and open it. 
