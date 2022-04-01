@@ -47,8 +47,6 @@ be installed to explore those extensions.  You can install the Bot Framework Com
 
 ### <a name="GettingStarted"></a>Getting Started
 
-Getting started...
-
 1) **Clone the PVA/AudioCodes Contact Center Repo**  
 The PVA/AudioCodes Contact Center Accelerator repo has everything you'll need to get the solution
 up and running and to get started you'll need to clone the repo with the following console command:  
@@ -57,7 +55,7 @@ git clone https://github.com/managedcoder/PVAAudioCodesCC
 ```
 
 2) **Import the PVA Contact Center Accelerator Solution**  
-The PVA Contact Center Assistant has been shared as a Power Virtual Agent solution when will need
+The PVA Contact Center Assistant has been shared as a Power Virtual Agent solution that will need
 to be imported into your Power Virtual Agent environment. The easiest way to do that is to watch
 [this short 2 minute video](https://www.microsoft.com/en-us/videoplayer/embed/RE4CsHl?postJsllMsg=true)
 that explain how to import a solution or follow the instructions [here](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-export-import-bots#import-the-solution-with-your-bot).
@@ -80,20 +78,20 @@ AudioLogos, has two sample audio files you can use to explore this capability.
 .  
 Once you've uploaded one or more audio files, you'll need to modify two PVA Topics: Greeting
 and HowToSendSSML.  Use the URL to the audio file you uploaded to replace the URL string in the
-```<audio>``` tag value of the ```ssml``` input parameter to the vaicSendSSMLmessage redirect
+```<audio>``` tag value of the ```ssml``` input parameter to the vaicSendSSMLmessage Redirect
 action.  
 ![Figure 2: High-level Subsystem Overview](Doc/vaicSendSSMLmessage.png)
 
 4) **Deploy Mock Customer Service**  
 [Figure 1](#HighLevelSubsystemOverview) shows the core solution elements of a modern contact center
-and some of one of the most common scenarios require integration with a customer service solution.
+and some of the most common scenarios require integration with a customer service solution.
 There are a number of popular commercial customer service solutions available and while each will
-have its own integration APIs, the approach to calling these APIs from a PVA bot is the same and
+have its own integration APIs, the approach to calling those APIs from a PVA bot is the same and
 this is demonstrated in this accelerator by using a mock, surrogate customer service represented by
 the ```ContosoCustomerService``` Azure Function found in the ```PVAAudioCodesCC.sln``` solution.  
 .  
 You'll need to deploy this mock customer service Azure function to explore and run some of the
-scenarios include in this accelerator.  To deploy the mock customer service, open the
+scenarios included in this accelerator.  To deploy the mock customer service, open the
 ```PVAAudioCodesCC.sln``` and follow
 [these instructions](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure)
 for using Visual Studio to deploy an Azure Function.
@@ -103,8 +101,8 @@ Configuring the telephony aspect of the solution accelerator involves working in
 VoiceAI Connect Cloud portal and the PVA portal  
 .  
 5.1) **Publish PVA Contact Center Assistant**  
-Make sure you publish the assistant in the PVA portal if you had done that as a part of the previous 
-import step  
+Make sure your PVA assistant has been published in the PVA portal if you haven't done that already as part of
+the previous import step.  
 .  
 5.2 **Create Telephony Bot Definition**  
 Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/ms_power_va.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257CCreating%2520your%2520bot%2520using%2520Bot%2520Integration%2520wizard%257C_____1)
@@ -127,7 +125,7 @@ The last two Topics need to update the URL to point to the audio files you uploa
 
 ### <a name="ExploreContactCenterSolutionAccelerator"></a>Explore Contact Center Solution Accelerator
 The accelerator is spread across several portals and a number of assets so [this video gives a quick
-tour](http://aka.ms/pva-vaicc-tour) of all it's various elements and should prepare you to be able to
+tour](http://aka.ms/pva-vaicc-tour) of all its various elements and should prepare you to be able to
 effectively explore on you own.
 
 ### <a name=""></a>Gotcha's To Be Aware Of
