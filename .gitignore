@@ -182,6 +182,10 @@ DocProject/Help/html
 *Zip Deploy.json
 *Zip Deploy/*
 
+# Ignore deployment file that are generated
+[Dd]eployment/*.zip
+[Dd]eployment/*.txt
+
 # Click-Once directory
 publish/
 

@@ -20,7 +20,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AudioLogos", "AudioLogos", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{E713DCB8-32CE-4CAF-AFD4-E6F68B2DA31F}"
 	ProjectSection(SolutionItems) = preProject
+		Doc\ContactCenterArchitecture.png = Doc\ContactCenterArchitecture.png
+		Doc\ContactCenterArchitecture.vsdx = Doc\ContactCenterArchitecture.vsdx
 		Doc\ContactCenterCoreElements.png = Doc\ContactCenterCoreElements.png
+		Doc\grabbingAudioLogoURL.png = Doc\grabbingAudioLogoURL.png
+		Doc\vaicBotDetailsTab.png = Doc\vaicBotDetailsTab.png
+		Doc\vaicBotSettingsTab.png = Doc\vaicBotSettingsTab.png
+		Doc\vaicFeaturesTab.png = Doc\vaicFeaturesTab.png
+		Doc\vaicSendSSMLmessage.png = Doc\vaicSendSSMLmessage.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{155A6B92-18F7-4C99-ADFC-93278263811A}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\deploy.ps1 = Deployment\deploy.ps1
+		Deployment\deploy_app_insights.ps1 = Deployment\deploy_app_insights.ps1
+		Deployment\deploy_app_service.ps1 = Deployment\deploy_app_service.ps1
+		Deployment\deploy_function_app.ps1 = Deployment\deploy_function_app.ps1
+		Deployment\deploy_storage.ps1 = Deployment\deploy_storage.ps1
+		Deployment\prepopulate_audiologos.ps1 = Deployment\prepopulate_audiologos.ps1
 	EndProjectSection
 EndProject
 Global
