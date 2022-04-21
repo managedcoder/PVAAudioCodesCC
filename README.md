@@ -39,6 +39,7 @@ and Line of Business Integration.  The other three will be addressed as this
 accelerator evolves.
 
 ![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)
+##### <a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram  
 
 [give brief description of the diagram]
 
