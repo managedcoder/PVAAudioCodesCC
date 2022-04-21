@@ -17,10 +17,10 @@ center solution to provide maximum capability. To accomplish this goal, the acce
 includes a set of building blocks and blueprints that address common contact center tasks
 and scenarios.  You can think of the systems and services in **Figure 1** as sort of a
 checklist of key topic areas you need to give careful consideration in order to build an
-effective modern contact center solution.
+effective modern contact center solution.  
 
-#### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
+##### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements  
 
 [give a brief explanation of each core element and what role it plays and the opportunity
 it offers in terms of capability]
@@ -38,7 +38,7 @@ initial version of the accelerator, only four of the seven core elements of
 and Line of Business Integration.  The other three will be addressed as this
 accelerator evolves.
 
-![Figure 1: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)
+![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)
 
 [give brief description of the diagram]
 
