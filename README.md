@@ -88,7 +88,7 @@ access to Microsoft's Power Virtual Agent and AudioCodes VoiceAI Connect Cloud
 Edition. If you don't already have access to either of those services, you can
 create a trial account to explore those services and this accelerator.
 
-Note: Some of the capabilities of this accelerator require AudioCodes VoiceAI
+**Note:** Some of the capabilities of this accelerator require AudioCodes VoiceAI
 Connect Cloud Edition Plus and you can upgrade your service later if you want to
 leverage those features without having to reinstall the accelerator.  
 
