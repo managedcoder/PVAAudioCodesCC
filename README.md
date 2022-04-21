@@ -131,7 +131,7 @@ Getting started should be quick and easy and there are only four steps you
 need to complete which are easy enough to follow that you shouldn't need
 any prior knowledge to be successful.  Alternatively, this short
 [Getting Started Screencast](https://aka.ms/pva-vaicc-start) covers the
-same ground, but in video form which can be an easier and quick to
+same ground, but in video form which can be easier and quicker to
 follow for this type of activity.
 
 1) **Clone the PVA/AudioCodes Contact Center Repo**  
