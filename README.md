@@ -16,8 +16,8 @@ systems and services and show how each can be effectively integrated into a mode
 center solution to provide maximum capability. To accomplish this goal, the accelerator
 includes a set of building blocks and blueprints that address common contact center tasks
 and scenarios.  You can think of the systems and services in **Figure 1** as sort of a
-checklist of key topic areas you need to give careful consideration to build an effective
-modern contact center solution.
+checklist of key topic areas you need to give careful consideration in order to build an
+effective modern contact center solution.
 
 #### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
@@ -28,14 +28,15 @@ it offers in terms of capability]
 ## Solution Overview
 
 In the context of a contact center, two disciplines weave each of the various solution
-elements together and bring them alive: conversational AI and telephony.  In this
-accelerator, conversational AI discipline is provided by Microsoft's Power Virtual Agent
-(PVA) and telephony is provided by AudioCodes VoiceAI Connect Cloud (VAIC-C).  Figure 2
-provides an architectural understanding of how those two technologies fit together along
-with the other elements of the accelerator.  In this initial version of the accelerator,
-only 4 of the 7 core elements of Figure 1 are addressed: Contact Center Assistant,
-Experiences, Customer Services, and Line of Business Integration.  The other 3 will be
-addressed as this accelerator evolves.
+elements in **Figure 1** together and bring them alive: conversational AI and telephony.
+In this accelerator, the conversational AI discipline is provided by Microsoft's Power
+Virtual Agent (PVA) and telephony is provided by AudioCodes VoiceAI Connect Cloud
+(VAIC-C). **Figure 2** provides an architectural understanding of how those two
+technologies fit together along with the other elements of the accelerator.  In this
+initial version of the accelerator, only four of the seven core elements of 
+**Figure 1** are addressed: Contact Center Assistant, Experiences, Customer Services,
+and Line of Business Integration.  The other three will be addressed as this
+accelerator evolves.
 
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)
 
@@ -99,8 +100,12 @@ to sign up for a free trial account for AudioCodes Voice AI Connect Cloud
 Edition.  
 &nbsp;  
 Alternatively, you can also subscribe to AudioCodes Voice AI Connect Cloud
-Edition from Azure Market Place by following the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Combined/Accessing%20VoiceAi%20Connect%20Cloud%20from%20Azure.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257C_____1)
-
+Edition from Azure Market Place by following the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Combined/Accessing%20VoiceAi%20Connect%20Cloud%20from%20Azure.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257C_____1)  
+&nbsp;  
+When you've successfully created a trial account, confirmed your account, and
+successfully signed in, you can stop there and will come back to this AudioCodes
+portal later in the [Telephony Configuration step](#TelephonyConfiguration)  
+&nbsp;  
 <a name="ForDevelopers"></a>**Development Tools**  
 Although the following development tools are not required in order to get this
 accelerator up and running and demo it, they are required if you want to explore
@@ -111,7 +116,7 @@ of PVA Composer Topics.
 - **Install Bot Framework Composer**  
 This accelerator extends its Power Virtual Agent by using Bot Framework Composer
 and you'll need to install it if you want to explore or modify those
-extensions.  You can install the Bot Framework Composer by clicking [here](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows)
+extensions.  Download Composer ***for Windows*** [here](https://docs.microsoft.com/en-us/composer/install-composer?tabs=windows#download-composer)
 
 - **Install Visual Studio**  
 If you want to explore the mock Customer Service Azure Function or if you
@@ -120,22 +125,31 @@ need to install Visual Studio which can be installed [here](https://docs.microso
 
 ### <a name="GettingStarted"></a>Getting Started
 Getting started should be quick and easy and there are only four steps you
-need to complete which are explained well enough that you shouldn't need
-any prior knowledge to be successful.
+need to complete which are easy enough to follow that you shouldn't need
+any prior knowledge to be successful.  Alternatively, this short
+[Getting Started Screencast](https://aka.ms/pva-vaicc-start) covers the
+same ground, but in video form which can be an easier and quick to
+follow for this type of activity.
+
 1) **Clone the PVA/AudioCodes Contact Center Repo**  
-The [PVA/AudioCodes Contact Center Accelerator repo](https://github.com/managedcoder/PVAAudioCodesCC)
-has everything you'll need to get the solution up and running and to get
-started you'll need to clone the repo with the following console command:  
+This repo has everything you'll need to get the solution up and running and
+to get started you'll need to clone the repo which copies the accelerator
+to your local device.  If you have [Git](https://git-scm.com/downloads)
+installed, open a command window and enter the following console command:  
 &nbsp;  
 ```git clone https://github.com/managedcoder/PVAAudioCodesCC```  
-
+&nbsp;  
+If you don't have Git installed then you can scroll to the top of this
+page and click the green Code button and download a zip archive of this
+repo and extract it.  
+![Figure 1: High-level Subsystem Overview](Doc/CloneToZip.png)
 2) **Deploy Mock Services**  
 In order to capture realistic enterprise scenarios for a modern contact
 center, this accelerator implements mock services and hosts sample audio
 logo files.  To make it as easy as possible to get up and running quickly
 without having to understand the technical details of the accelerator, a
 single PowerShell script is provided that will deploy and configure these
-mock services and all you'll need to do it run it.  
+mock services and all you'll need to do is run it.  
 &nbsp;  
 Open a Power Shell command window with its current working directory set
 to the **Deployment** project folder and sign into your Azure subscription
@@ -170,74 +184,187 @@ log file named deploy_log.txt.
 3) **Import, Configure & Deploy the PVA Contact Center Accelerator Solution**  
 The accelerator's contact center assistant has been shared as a Power
 Virtual Agent solution that will need to be imported into your Power
-Virtual Agent environment.  
+Apps environment.  
 &nbsp;  
 ***Import Solution***  
-To import the assistant, skip to the 1:48 minute mark of
-[this short video](https://www.microsoft.com/en-us/videoplayer/embed/RE4CsHl?postJsllMsg=true)
-which will explain how to import a solution or follow the instructions
-[here](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-export-import-bots#import-the-solution-with-your-bot).  
+Browse to the [PVA portal](http://powerva.microsoft.com/) and click the
+"settings" gear icon in the top right and then click "General Settings"
+link.  In the resulting Setting dialog, click the "Go to Power Apps
+Solutions"  
 &nbsp;  
-The solution zip file is called PVAAudioCodesContactCenterAccelerator_1_0_0_0.zip
-and can be found in the root project folder.  
+![Open Assistant](Doc/GeneralSettings.png)  
+&nbsp;   
+In Power Apps portal, click the "Import" link at top of page and then
+click the "Browse" button and select
+PVAAudioCodesContactCenterAccelerator_1_0_0_0.zip which you'll find in
+the root folder of the accelerator you cloned/extracted in step 1. Then
+click "Next" and "Import".
 &nbsp;  
-The last part of the video shows you how to browse to the imported
-assistant or you can browse to the [PVA portal](https://web.powerva.microsoft.com)
-and open the imported assistant by clicking on the bot icon in the upper
-right corner of the page and choose your assistant from the menu.  
+![Open Assistant](Doc/ImportSolution.png)  
+&nbsp;  
+**Note:** If you're having trouble importing the solution, you can find more
+detailed instructions [here](https://docs.microsoft.com/en-us/power-virtual-agents/authoring-export-import-bots#import-the-solution-with-your-bot)
+or watch [this short video](https://www.microsoft.com/en-us/videoplayer/embed/RE4CsHl?postJsllMsg=true)
+and skip to the 1:48 minute mark where it shows how to import a solution.  
+&nbsp;  
+***Open Solution***  
+Open the [PVA portal](https://web.powerva.microsoft.com) in a new browser
+window (or refresh the portal if it's already open) and open the imported
+assistant by clicking on the bot icon in the upper right corner of the page
+and choose your assistant from the menu.  
 &nbsp;  
 ![Open Assistant](Doc/OpenAssistant.png)  
 &nbsp;  
-***Configure Your Assistant's Greeting***  
+<a name="ConfigureYourAssistantsGreeting"></a>***Configure Your Assistant's Greeting***  
 To connect your contact center assistant to the accelerator's mock
 services, there is a simple configuration step you'll need to complete.  
 &nbsp;  
 Click the **Topics** tab in the left navigation and find the **Greeting**
 topic in the list of Topics (use Search box if needed) and click on it
 to open it.  There are three values you'll need to set in the **Redirect**
-action for **configureMockSettings**.  The copy and paste the first two
-from the corresponding settings displayed in yellow text at the end of the
-deployment in the deployment command window (**customerServiceHostURL**
-and **audioLogoURL**).  For the **agentPhoneNumber** setting you can
-use the phone number you would like the assistant to call when agent
-escalation occurs.  There are several places in the building
-blocks and scenarios that escalate to an agent and when that happens
-the phone number you provide in this setting will be called.  Using
-your cell phone number is a convenient way to test and demo this.  
+action for **configureMockSettings**.  Replace the placeholder text in the
+**customerServiceHostURL** and **audioLogoURL** fields with the
+corresponding values displayed in yellow text at the end of the
+deployment in the deployment command window. For the **agentPhoneNumber**
+setting you can use the phone number you would like the assistant to call
+when agent escalation occurs.  The number should start with the country
+code which in the US is "1" so the number would look something like
+15554441212.  There are several places in the building blocks and
+scenarios that escalate to an agent and when that happens the phone number
+you provide in this setting will be called. Using your cell phone number
+is a convenient way to test and demo this.  
+&nbsp;  
 ![Open Assistant](Doc/ConfigSettings.png)  
+&nbsp;  
+Copy the text highlighted with red boxes from the command window you
+used to deploy the mock services and paste it into the corresponding
+fields as described above.  
+![Open Assistant](Doc/ConfigSettingsValues.png)  
+&nbsp;  
 ***Publish Your Assistant***  
 Finally, publish your assistant by clicking the **Publish** tab in the
 left navigation menu and then click the **Publish** button  
 &nbsp;    
 ![Open Assistant](Doc/PublishAssistant.png)  
-4) **Telephony Configuration**  
+4) <a name="TelephonyConfiguration"></a>**Telephony Configuration**  
 Configuring the telephony aspect of the solution accelerator involves
-working in AudioCodes VoiceAI Connect Cloud portal  
+working in AudioCodes VoiceAI Connect Cloud portal.  You can follow
+the instructions in this step or follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/ms_power_va.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257CCreating%2520your%2520bot%2520using%2520Bot%2520Integration%2520wizard%257C_____1)
+to create a telephony bot definition.  
 &nbsp;  
-***Create Telephony Bot Definition***  
-Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/ms_power_va.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257CCreating%2520your%2520bot%2520using%2520Bot%2520Integration%2520wizard%257C_____1)
-to create a telephony bot definition in the AudioCodes VoiceAI Connect
-portal and set its configuration as you see below  
+***Create a Bot Connection***  
+Open the [AudioCodes portal](http://voiceaiconnect.audiocodes.com/)
+in the browser sign in and if this is the first time you've visited
+the AudioCodes portal, it will look like the screen below and you'll
+select the **Connect your bot to phone number provided by AudioCodes**
+wizard.  
+&nbsp;  
+![Open Assistant](Doc/AudioCodesBotWizard.png)  
+&nbsp;  
+If this is not the first time you've signed in to the AudioCodes portal,
+then the screen will look like the screen below and you should click
+the plus sign.  
+&nbsp;  
+![Open Assistant](Doc/OpenFrameworkWizard.png)  
+&nbsp;  
+Select **Microsoft Power Virtual Agents** framework and click **Next**  
+![Open Assistant](Doc/AudioCodesPVABot.png)  
 &nbsp;  
 ***Bot Details Tab***  
+On the Bot Details tab, enter a name for the bot definition in
+AudioCodes then enter the PVA Bot's secret which you can find by 
+following [these instructions](https://docs.microsoft.com/en-us/power-virtual-agents/configure-web-security#obtain-the-secrets)
+and then click **Next**  
+&nbsp;  
 ![Bot Details Tab](Doc/vaicBotDetailsTab.png)  
-&nbsp;  
 ***Bot Setting Tab***  
-![Bot Setting Tab](Doc/vaicBotSettingsTab.png)  
+The default values of the Bot Settings tab are fine and don't need to
+be changed so you can click **Create**  
 &nbsp;  
-***Bot Features Tab***  
-![Bot Features Tab](Doc/vaicFeaturesTab.png)  
+![Bot Details Tab](Doc/vaicBotSettingsTab.png)  
 &nbsp;  
-
+***Enable Bot Features***  
+Once you've created a bot connection, you can edit it's features
+and enable capabilities that the accelerator is pre-wired to take
+advantage of.  Switch to the **Bots** tab and click **Edit** on the
+bot connection you created.  
+&nbsp;  
+![Bot Features Tab](Doc/OpenBotConnectionFeatures.png)  
+&nbsp;  
+Click on the **Features** tab and then enable outbound calling,
+call recording controlled by bot, and call transfer and then
+click **Update**.  
+&nbsp;  
+These features are not available with the basic trial subscription
+and, although the majority of the accelerator's building blocks and
+scenarios work with the trial subscription, if you want demo or
+extend those aspects of the accelerator, you'll need to upgrade to
+the **Essential Plan** in lower left of dialog.  
+&nbsp;  
+**Note:** The agent escalation capability requires the **call
+transfer** feature to be enabled so if escalation happens while
+you are experimenting or demoing, you'll hear a message that says,
+"Hello, welcome to AudioCodes VoiceAI Connect, the number you've
+dialed is not connected to a root...".  
+&nbsp;  
+![Bot Features Tab](Doc/vaicBotFeaturesTab.png)  
+&nbsp;  
+***Provision a Phone Number***  
+&nbsp;  
+Next, you'll provision the phone number for your assistant. Click on
+the **Numbers** tab in the menu on the left and click the
+**plus sign** and choose a country, state, and city and click
+**Add Number** and then **Finish**.  
+&nbsp;  
+***Connect Your Bot to Phone Number***
+&nbsp;  
+Now you can connect your bot to the phone number you just provisioned.
+Click the **Wizard** button in lower left and then click **Select**
+button on the **Connect your bot to phone number provided by
+AudioCodes** wizard option and then select your bot from the list and
+click **Next**.  
+&nbsp;  
+![Bot Features Tab](Doc/vaicAssignNumberToBotOption.png)  
+&nbsp;  
+***Select Existing Phone Number***  
+On the **SELECT PHONE NUMBER** screen, choose **Use existing number** then select your provisioned number
+and click **Next**  
+&nbsp;  
+![Bot Features Tab](Doc/vaicChooseExistingNumber.png)  
+&nbsp;  
+You can take all the defaults on the **CREATE ROUTING RULES** page
+and select **Create**  
+&nbsp;  
+![Bot Features Tab](Doc/vaicRoutingRules.png)  
+&nbsp;  
+***Call Your Assistant!!!***  
+&nbsp;  
+Congratulations!  You are now ready to call your bot and when you
+do, you should hear an audio logo and then the assistant's greeting.  
+&nbsp;  
+If the number isn't working yet or AduioCodes says it not ready,
+then give it a minute and try again.  
+&nbsp;  
+*****Trouble Shooting*****  
+If you hear a message that says, "To use this bot, publish it in
+Power Virtual Agents...", check to make sure that you have published
+the bot in the [Power Virtual Agent portal](https://powerva.microsoft.com/).  
+&nbsp;  
+If you hear a message that says, "The accelerator needs to be
+configured before its ready to take calls.  Instructions can be found
+in the README documentation." then you'll need to review
+[this section of Step 3](#ConfigureYourAssistantsGreeting) and
+replace the placeholder values with the correct ones.
 ### <a name="ExploreContactCenterSolutionAccelerator"></a>Explore Contact Center Solution Accelerator
 The accelerator is spread across several portals and a number of
-assets so [this video gives a quick tour](http://aka.ms/pva-vaicc-tour)
+assets so exploring it is best accomplished in the form of a video
+screencast. [This video gives a quick tour](https://aka.ms/pva-vaicc-tour)
 of all its various elements and should prepare you to be able to
-effectively explore on you own.
+effectively explore and demo on your own.
 
 ### <a name=""></a>Gotcha's To Be Aware Of
 - **Version Confusion** - Use version numbers in PVA and Composer
-Topics so you can ask for them when you test you contact center
+Topics so you can ask for them when you test your contact center
 assistant.  Anytime you change a Composer topic you will need to
 1) refresh the PVA portal page and 2) republish your contact center
 assistant, otherwise, AudioCodes VoiceAI Connect Cloud (VAIC-C) will
