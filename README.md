@@ -88,9 +88,11 @@ access to Microsoft's Power Virtual Agent and AudioCodes VoiceAI Connect Cloud
 Edition. If you don't already have access to either of those services, you can
 create a trial account to explore those services and this accelerator.
 
-**Note:** Some of the capabilities of this accelerator require AudioCodes VoiceAI
-Connect Cloud Edition Plus and you can upgrade your service later if you want to
-leverage those features without having to reinstall the accelerator.  
+**Note:** The trial subscription for AudioCode VoiceAI Connect Cloud provides a
+standard set of telephony features but some of the capabilities of this accelerator
+use advanced telephony capabilities which require the AudioCodes VoiceAI Connect
+Cloud Edition Plus and you can upgrade your trial subscription later if you want
+to leverage those features without having to reinstall the accelerator.  
 
 - **Get PVA Trial Account**  
 To sign up for a free trial account for Power Virtual Agents click [here](https://go.microsoft.com/fwlink/?LinkId=2107702&clcid=0x409&cmpid=pva-home-hero-sta-buildchatbots)
