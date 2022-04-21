@@ -1,4 +1,4 @@
-# Contact Center Accelerator
+# PVA / AudioCodes Contact Center Accelerator
 
 The goal of a modern contact center solution is to provide a customer experience that rivals
 that of an experienced human agent and do that at scale and at a fraction of the cost of a
