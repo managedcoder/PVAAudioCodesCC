@@ -82,7 +82,7 @@ aren't starting from first principles.
 **Subscriptions**  
 You don't need to be a developer or have development tools installed in order to
 get this accelerator up and running and demo it but you will if you wanted to
-modify and extend this accelerator (see [Deployment Tools](#ForDevelopers) section
+modify and extend this accelerator (see [Development Tools](#ForDevelopers) section
 for details). The only thing you need to run this accelerator and try it out is
 access to Microsoft's Power Virtual Agent and AudioCodes VoiceAI Connect Cloud
 Edition. If you don't already have access to either of those services, you can
