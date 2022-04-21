@@ -22,9 +22,6 @@ effective modern contact center solution.
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
 ##### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements  
 
-[give a brief explanation of each core element and what role it plays and the opportunity
-it offers in terms of capability]
-
 ## Solution Overview
 
 In the context of a contact center, two disciplines weave each of the various solution
@@ -40,8 +37,6 @@ accelerator evolves.
 
 ![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)  
 ##### <a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram  
-
-[give brief description of the diagram]
 
 ## Using the Accelerator
 
