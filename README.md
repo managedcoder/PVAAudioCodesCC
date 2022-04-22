@@ -105,9 +105,12 @@ successfully signed in, you can stop there and will come back to this AudioCodes
 portal later in the [Telephony Configuration step](#TelephonyConfiguration)  
 - **Get PowerShell**  
 To make it as easy as possible to get started quickly, a PowerShell script is
-used to install and configure various Azure services so you don't have to
-worry about those details and the accelerator just works once the
-**Getting Started** steps are finished.
+used in the **Getting Started** steps to install and configure various Azure
+services so you don't have to worry about those details and the accelerator
+will just work when you're finish setup.  
+&nbsp;  
+You'll need to download and install PowerShell [here](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#msi)
+if you don't already have that installed.
 
 <a name="ForDevelopers"></a>**Development Tools**  
 Although the following development tools are not required in order to get this
