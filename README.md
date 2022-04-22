@@ -29,6 +29,14 @@ effective modern contact center solution.
 [PREREQUISITES](#Prerequisites)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Required Skills  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo-Only Prerequisites  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development Prerequisites  
+[Getting Started](#GettingStarted)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clone the PVA/AudioCodes Contact Center Repo  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deploy Mock Services  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import, Configure & Publish the PVA / AudioCodes Solution  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephony Configuration  
+[Using the Accelerator](#UsingTheAccelerator)  
+[Best Practices](#BestPractices)
 
 ## <a name="SolutionOverview"></a>Solution Overview
 
