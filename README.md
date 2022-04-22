@@ -20,7 +20,7 @@ checklist of key topic areas you need to give careful consideration in order to 
 effective modern contact center solution.  
 
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
-##### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements  
+**<a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements**  
 
 ## &nbsp;  
 
@@ -44,7 +44,7 @@ and Line of Business Integration.  The other three will be addressed as this
 accelerator evolves.
 
 ![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)  
-##### <a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram  
+**<a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram**  
 
 ## <a name="Prerequisites"></a>Prerequisites
 
@@ -116,7 +116,7 @@ If you want to explore the mock Customer Service Azure Function or if you
 installed Composer to explore or extend PVA Composer Topics, you'll also
 need to install Visual Studio which can be installed [here](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2022)
 
-### <a name="GettingStarted"></a>Getting Started
+## <a name="GettingStarted"></a>Getting Started
 Getting started should be quick and easy and there are only four steps you
 need to complete which are easy enough to follow that you shouldn't need
 any prior knowledge to be successful.  Alternatively, this short
