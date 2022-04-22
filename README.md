@@ -124,7 +124,7 @@ same ground, but in video form which can be easier and quicker to
 follow for this type of activity.
 
 #### 1) **Clone the PVA/AudioCodes Contact Center Repo**  
-> This repo has everything you'll need to get the solution up and running and
+>This repo has everything you'll need to get the solution up and running and
 to get started you'll need to clone the repo which copies the accelerator
 to your local device.  If you have [Git](https://git-scm.com/downloads)
 installed, open a command window and enter the following console command:  
@@ -136,7 +136,7 @@ page and click the green Code button and download a zip archive of this
 repo and extract it.  
 ![Figure 1: High-level Subsystem Overview](Doc/CloneToZip.png)
 #### 2) **Deploy Mock Services**  
-- In order to capture realistic enterprise scenarios for a modern contact
+>In order to capture realistic enterprise scenarios for a modern contact
 center, this accelerator implements mock services and hosts sample audio
 logo files.  To make it as easy as possible to get up and running quickly
 without having to understand the technical details of the accelerator, a
@@ -174,7 +174,7 @@ command window and more detailed error information will be written to a
 log file named deploy_log.txt.
 
 #### 3) **Import, Configure & Publish the PVA / AudioCodes Solution**  
-- The accelerator's contact center assistant has been shared as a Power
+>The accelerator's contact center assistant has been shared as a Power
 Virtual Agent solution that will need to be imported into your Power
 Apps environment.  
 &nbsp;  
@@ -239,7 +239,7 @@ left navigation menu and then click the **Publish** button
 &nbsp;    
 ![Open Assistant](Doc/PublishAssistant.png)  
 #### 4) <a name="TelephonyConfiguration"></a>**Telephony Configuration**  
-- Configuring the telephony aspect of the solution accelerator involves
+>Configuring the telephony aspect of the solution accelerator involves
 working in AudioCodes VoiceAI Connect Cloud portal.  You can follow
 the instructions in this step or follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/ms_power_va.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257CCreating%2520your%2520bot%2520using%2520Bot%2520Integration%2520wizard%257C_____1)
 to create a telephony bot definition.  
