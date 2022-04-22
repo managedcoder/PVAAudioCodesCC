@@ -22,6 +22,8 @@ effective modern contact center solution.
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
 ##### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements  
 
+## &nbsp;  
+
 ## Table of Contents  
 [SOLUTION OVERVIEW](#SolutionOverview)  
 [PREREQUISITES](#Prerequisites)  
