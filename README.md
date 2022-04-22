@@ -48,7 +48,6 @@ accelerator evolves.
 
 ## <a name="Prerequisites"></a>Prerequisites
 #### Required Skills
-##### Required Skills
 If this accelerator is going to be used as a telephony demonstration, then only a
 basic understanding of Microsoft's Power Virtual Agent (PVA) is required and the
 instructions for configuring AudioCode's VoiceAI Connect Cloud (VAIC-C) should be
@@ -64,8 +63,7 @@ helpful in getting you up to speed with less effort since you'll start with an
 assistant that has an implementation that you can examine and extend so you
 aren't starting from first principles.
 
-#### Demo-Only Prerequisites  
-##### Demo-Only Prerequisites  
+#### Demo-Only Prerequisites
 You don't need to be a developer or have development tools installed in order to
 get this accelerator up and running and demo it but you will if you wanted to
 modify and extend this accelerator (see [Development Tools](#ForDevelopers) section
@@ -103,7 +101,7 @@ will just work when you're finish setup.
 You'll need to download and install PowerShell [here](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#msi)
 if you don't already have that installed.
 
-#####<a name="ForDevelopers"></a>Development Prerequisites  
+#### <a name="ForDevelopers"></a>Development Prerequisites  
 In addition to the demo-only prerequisites, if you want to explore or extend the
 more advanced and technical aspects of this accelerator, you'll need to install
 the following tools.  
@@ -125,7 +123,7 @@ any prior knowledge to be successful.  Alternatively, this short
 same ground, but in video form which can be easier and quicker to
 follow for this type of activity.
 
-1) **Clone the PVA/AudioCodes Contact Center Repo**  
+#### 1) **Clone the PVA/AudioCodes Contact Center Repo**  
 This repo has everything you'll need to get the solution up and running and
 to get started you'll need to clone the repo which copies the accelerator
 to your local device.  If you have [Git](https://git-scm.com/downloads)
@@ -137,7 +135,7 @@ If you don't have Git installed then you can scroll to the top of this
 page and click the green Code button and download a zip archive of this
 repo and extract it.  
 ![Figure 1: High-level Subsystem Overview](Doc/CloneToZip.png)
-2) **Deploy Mock Services**  
+#### 2) **Deploy Mock Services**  
 In order to capture realistic enterprise scenarios for a modern contact
 center, this accelerator implements mock services and hosts sample audio
 logo files.  To make it as easy as possible to get up and running quickly
@@ -175,7 +173,7 @@ step for your contact center assistant.
 command window and more detailed error information will be written to a
 log file named deploy_log.txt.
 
-3) **Import, Configure & Publish the PVA / AudioCodes Solution**  
+#### 3) **Import, Configure & Publish the PVA / AudioCodes Solution**  
 The accelerator's contact center assistant has been shared as a Power
 Virtual Agent solution that will need to be imported into your Power
 Apps environment.  
@@ -240,7 +238,7 @@ Finally, publish your assistant by clicking the **Publish** tab in the
 left navigation menu and then click the **Publish** button  
 &nbsp;    
 ![Open Assistant](Doc/PublishAssistant.png)  
-4) <a name="TelephonyConfiguration"></a>**Telephony Configuration**  
+#### 4) <a name="TelephonyConfiguration"></a>**Telephony Configuration**  
 Configuring the telephony aspect of the solution accelerator involves
 working in AudioCodes VoiceAI Connect Cloud portal.  You can follow
 the instructions in this step or follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/ms_power_va.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257CCreating%2520your%2520bot%2520using%2520Bot%2520Integration%2520wizard%257C_____1)
