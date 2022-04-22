@@ -64,6 +64,7 @@ helpful in getting you up to speed with less effort since you'll start with an
 assistant that has an implementation that you can examine and extend so you
 aren't starting from first principles.
 
+####Demo-Only Prerequisites  
 #####Demo-Only Prerequisites  
 You don't need to be a developer or have development tools installed in order to
 get this accelerator up and running and demo it but you will if you wanted to
@@ -102,7 +103,7 @@ will just work when you're finish setup.
 You'll need to download and install PowerShell [here](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#msi)
 if you don't already have that installed.
 
-##### <a name="ForDevelopers"></a>Development Prerequisites  
+#####<a name="ForDevelopers"></a>Development Prerequisites  
 In addition to the demo-only prerequisites, if you want to explore or extend the
 more advanced and technical aspects of this accelerator, you'll need to install
 the following tools.  
