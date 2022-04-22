@@ -103,7 +103,7 @@ Edition from Azure Market Place by following the instructions [here](https://tec
 When you've successfully created a trial account, confirmed your account, and
 successfully signed in, you can stop there and will come back to this AudioCodes
 portal later in the [Telephony Configuration step](#TelephonyConfiguration)  
-&nbsp;  
+
 <a name="ForDevelopers"></a>**Development Tools**  
 Although the following development tools are not required in order to get this
 accelerator up and running and demo it, they are required if you want to explore
