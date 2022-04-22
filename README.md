@@ -74,7 +74,7 @@ helpful in getting you up to speed with less effort since you'll start with an
 assistant that has an implementation that you can examine and extend so you
 aren't starting from first principles.
 
-**Exploration Prerequisites**  
+**Demo-Only Prerequisites**  
 You don't need to be a developer or have development tools installed in order to
 get this accelerator up and running and demo it but you will if you wanted to
 modify and extend this accelerator (see [Development Tools](#ForDevelopers) section
