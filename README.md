@@ -22,7 +22,13 @@ effective modern contact center solution.
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
 ##### <a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements  
 
-## Solution Overview
+## Table of Contents  
+[SOLUTION OVERVIEW](#SolutionOverview)  
+[PREREQUISITES](#Prerequisites)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Required Skills  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo-Only Prerequisites  
+
+## <a name="SolutionOverview"></a>Solution Overview
 
 In the context of a contact center, two disciplines weave each of the various solution
 elements in **Figure 1** together and bring them alive: conversational AI and telephony.
@@ -38,7 +44,7 @@ accelerator evolves.
 ![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)  
 ##### <a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram  
 
-### <a name="Prerequisites"></a>Prerequisites
+## <a name="Prerequisites"></a>Prerequisites
 
 **Required Skills**  
 If this accelerator is going to be used as a telephony demonstration, then only a
