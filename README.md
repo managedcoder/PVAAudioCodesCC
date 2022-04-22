@@ -38,24 +38,6 @@ accelerator evolves.
 ![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)  
 ##### <a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram  
 
-## Using the Accelerator
-
-Think of this accelerator as part construction kit and part roadmap where its building
-blocks and scenarios allow you to minimize time-to-value and maximize solution
-capability.
- 
-**Building Blocks** - The accelerator includes a set of executable how-to's that
-provide "implementation snippets" for various common contact center tasks.  You can use
-them "as is" or tailor and extend them to meet the needs of your solution.  
-**Scenarios** - The scenarios included in the accelerator are example implementations
-of common contact center scenarios like "order status" or "product trouble
-shooting".  
-**Best Practices** - Finally, the best practices discuss important contact center
-topics and provide insight and effective approaches for addressing contact center
-challenges.
-
-## 
-
 ### <a name="Prerequisites"></a>Prerequisites
 
 **Required Skills**  
@@ -357,15 +339,35 @@ If you hear a message that says, "The accelerator needs to be
 configured before its ready to take calls.  Instructions can be found
 in the README documentation." then you'll need to review
 [this section of Step 3](#ConfigureYourAssistantsGreeting) and
-replace the placeholder values with the correct ones.
-### <a name="ExploreContactCenterSolutionAccelerator"></a>Explore Contact Center Solution Accelerator
-The accelerator is spread across several portals and a number of
-assets so exploring it is best accomplished in the form of a video
-screencast. [This video gives a quick tour](https://aka.ms/pva-vaicc-tour)
-of all its various elements and should prepare you to be able to
-effectively explore and demo on your own.
+replace the placeholder values with the correct ones.  
 
-### <a name=""></a>Gotcha's To Be Aware Of
+
+## <a name="UsingTheAccelerator"></a>Using the Accelerator
+
+Think of this accelerator as part construction kit and part roadmap where its building
+blocks and scenarios allow you to minimize time-to-value and maximize solution
+capability.
+ 
+**Building Blocks** - The accelerator includes a set of executable how-to's that
+provide "implementation snippets" for various common contact center tasks.  You can use
+them "as is" or tailor and extend them to meet the needs of your solution.  
+**Scenarios** - The scenarios included in the accelerator are example implementations
+of common contact center scenarios like "order status" or "product trouble
+shooting".  
+**Best Practices** - Finally, the best practices discuss important contact center
+topics and provide insight and effective approaches for addressing contact center
+challenges.
+
+The accelerator is spread across several portals and a number of assets so we've
+created [this video](https://aka.ms/pva-vaicc-tour) to help you understand what's
+included in the accelerator and how to use it effectively.
+
+## <a name="BestPractices"></a>Best Practices
+As this accelerator evolves, this section will capture and discuss important
+contact center topics and common challenges and provide insight and effective
+approaches for addressing them.
+
+### <a name="Gotchas"></a>Gotcha's To Be Aware Of
 - **Version Confusion** - Use version numbers in PVA and Composer
 Topics so you can ask for them when you test your contact center
 assistant.  Anytime you change a Composer topic you will need to
