@@ -20,6 +20,7 @@ checklist of key topic areas you need to give careful consideration in order to 
 effective modern contact center solution.  
 
 ![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)  
+&nbsp;  
 **<a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements**  
 
 ## &nbsp;  
