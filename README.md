@@ -113,12 +113,11 @@ You'll need to download and install PowerShell [here](https://docs.microsoft.com
 if you don't already have that installed.
 
 <a name="ForDevelopers"></a>**Development Prerequisites**  
-Although the following development tools are not required in order to get this
-accelerator up and running and demo it, they are required if you want to explore
-or extend the more advanced and technical aspects of this accelerator.
-Currently, the technical developer-oriented aspects of this accelerator are its
-mock Customer Service which is a very, very, simple Azure Function and a number
-of PVA Composer Topics.   
+In addition to the demo-only prerequisites, if you want to explore or extend the
+more advanced and technical aspects of this accelerator, you'll need to install
+the following tools. Currently, the technical developer-oriented aspects of this
+accelerator are its mock Customer Service which is a very, very, simple Azure
+Function and a number of PVA Composer Topics.   
 - **Install Bot Framework Composer**  
 This accelerator extends its Power Virtual Agent by using Bot Framework Composer
 and you'll need to install it if you want to explore or modify those
