@@ -74,7 +74,7 @@ helpful in getting you up to speed with less effort since you'll start with an
 assistant that has an implementation that you can examine and extend so you
 aren't starting from first principles.
 
-**Subscriptions**  
+**To Explore**  
 You don't need to be a developer or have development tools installed in order to
 get this accelerator up and running and demo it but you will if you wanted to
 modify and extend this accelerator (see [Development Tools](#ForDevelopers) section
@@ -112,7 +112,7 @@ will just work when you're finish setup.
 You'll need to download and install PowerShell [here](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.2#msi)
 if you don't already have that installed.
 
-<a name="ForDevelopers"></a>**Development Tools**  
+<a name="ForDevelopers"></a>**To Develop**  
 Although the following development tools are not required in order to get this
 accelerator up and running and demo it, they are required if you want to explore
 or extend the more advanced and technical aspects of this accelerator.
