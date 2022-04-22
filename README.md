@@ -184,7 +184,7 @@ step for your contact center assistant.
 command window and more detailed error information will be written to a
 log file named deploy_log.txt.
 
-3) **Import, Configure & Deploy the PVA Contact Center Accelerator Solution**  
+3) **Import, Configure & Publish the PVA / AudioCodes Solution**  
 The accelerator's contact center assistant has been shared as a Power
 Virtual Agent solution that will need to be imported into your Power
 Apps environment.  
