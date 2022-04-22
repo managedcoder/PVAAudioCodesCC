@@ -19,7 +19,7 @@ and scenarios.  You can think of the systems and services in **Figure 1** as sor
 checklist of key topic areas you need to give careful consideration in order to build an
 effective modern contact center solution.  
 
-![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)
+![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)  
 **<a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements**  
 
 ## &nbsp;  
