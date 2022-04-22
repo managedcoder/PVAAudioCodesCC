@@ -47,8 +47,8 @@ accelerator evolves.
 **<a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram**  
 
 ## <a name="Prerequisites"></a>Prerequisites
-
-##### Required Skills  
+#### Required Skills
+##### Required Skills
 If this accelerator is going to be used as a telephony demonstration, then only a
 basic understanding of Microsoft's Power Virtual Agent (PVA) is required and the
 instructions for configuring AudioCode's VoiceAI Connect Cloud (VAIC-C) should be
