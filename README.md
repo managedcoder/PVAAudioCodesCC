@@ -124,7 +124,7 @@ same ground, but in video form which can be easier and quicker to
 follow for this type of activity.
 
 #### 1) **Clone the PVA/AudioCodes Contact Center Repo**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This repo has everything you'll need to get the solution up and running and
+> This repo has everything you'll need to get the solution up and running and
 to get started you'll need to clone the repo which copies the accelerator
 to your local device.  If you have [Git](https://git-scm.com/downloads)
 installed, open a command window and enter the following console command:  
