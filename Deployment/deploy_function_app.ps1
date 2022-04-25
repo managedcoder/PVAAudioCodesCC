@@ -51,7 +51,7 @@ if (Test-path $publishZip) {
 }
 
 #Add-Type -assembly "system.io.compression.filesystem"
-[io.compression.zipfile]::CreateFromDirectory("$publishFolder", "$publishZip") `
+[io.compression.zipfile]::CreateFromDirectory("$publishFolder", "$(Join-Path $PSScriptRoot $publishZip)") `
     3>&1 2>&1 >> $logFile | Out-Null
 Write-Host " - Done." -ForegroundColor Green
 
