@@ -31,7 +31,7 @@ Write-Host " - Done." -ForegroundColor Green
 
 # Publish the Function App code
 $projectDirectoryForFunctionApp = Join-Path -Path $PSScriptRoot -ChildPath "..\ContosoCustomerService" -Resolve
-$publishFolder = "$projectDirectoryForFunctionApp\bin\Release\netcoreapp3.1\publish"
+$publishFolder = "$projectDirectoryForFunctionApp\obj\Release\netcoreapp3.1\publish"
 
 Write-Host "Publishing the mock customer service Function App code to local folder so it can be zipped" -NoNewline -ForegroundColor Green
 if ($showCommands.ToLower() -eq "true") { Write-Host ""; Write-Host "dotnet publish -c Release ""$projectDirectoryForFunctionApp"" " -NoNewline }
