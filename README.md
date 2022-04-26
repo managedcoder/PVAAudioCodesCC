@@ -144,7 +144,7 @@ just created and then enter the following console command:
 &nbsp;  
 If you don't have Git installed then you can scroll to the top of this
 page and click the green Code button and download a zip archive of this
-repo and extract it.  
+repo and extract it into a working folder.  
 ![Figure 1: High-level Subsystem Overview](Doc/CloneToZip.png)
 #### 2) **Deploy Mock Services**  
 >In order to capture realistic enterprise scenarios for a modern contact
