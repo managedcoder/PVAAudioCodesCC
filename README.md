@@ -252,7 +252,7 @@ then click the **Authentication** option
 ![Open Assistant](Doc/SetSecurityForAssistant.png)  
 &nbsp;  
 For the purposes of getting started you can choose **No Authentication**
-and click **Save**
+and click **Save** and then click **Close**
 &nbsp;  
 ![Open Assistant](Doc/NoAuthenticationSelection.png)  
 &nbsp;  
