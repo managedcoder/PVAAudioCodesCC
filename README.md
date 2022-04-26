@@ -244,6 +244,18 @@ used to deploy the mock services and paste it into the corresponding
 fields as described above.  
 ![Open Assistant](Doc/ConfigSettingsValues.png)  
 &nbsp;  
+***Set Security for Your Assistant***  
+Set the security level of your assistant by clicking the **Manage** tab in
+the left navigation menu and then click the **Security** menu option and
+then click the **Authentication** option  
+&nbsp;    
+![Open Assistant](Doc/SetSecurityForAssistant.png)  
+&nbsp;  
+For the purposes of getting started you can choose **No Authentication**
+and click **Save**
+&nbsp;  
+![Open Assistant](Doc/NoAuthenticationSelection.png)  
+&nbsp;  
 ***Publish Your Assistant***  
 Finally, publish your assistant by clicking the **Publish** tab in the
 left navigation menu and then click the **Publish** button  
