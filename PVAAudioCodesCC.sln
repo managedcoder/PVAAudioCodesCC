@@ -31,6 +31,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{E713DCB8-32C
 		Doc\GeneralSettings.png = Doc\GeneralSettings.png
 		Doc\OpenAssistant.png = Doc\OpenAssistant.png
 		Doc\OpenFrameworkWizard.png = Doc\OpenFrameworkWizard.png
+		Doc\ProvisionPhoneNumber.png = Doc\ProvisionPhoneNumber.png
 		Doc\PublishAssistant.png = Doc\PublishAssistant.png
 		Doc\vaicBotDetailsTab.png = Doc\vaicBotDetailsTab.png
 		Doc\vaicBotSettingsTab.png = Doc\vaicBotSettingsTab.png
