@@ -268,7 +268,7 @@ left navigation menu and then click the **Publish** button
 >Configuring the telephony aspect of the solution accelerator involves
 working in AudioCodes VoiceAI Connect Cloud portal.  You can follow
 the instructions in this step or follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/ms_power_va.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257CCreating%2520your%2520bot%2520using%2520Bot%2520Integration%2520wizard%257C_____1)
-to create a telephony bot definition.  
+to create a telephony bot connection.  
 &nbsp;  
 ***Create a Bot Connection***  
 Open the [AudioCodes portal](http://voiceaiconnect.audiocodes.com/)
@@ -289,7 +289,7 @@ Select **Microsoft Power Virtual Agents** framework and click **Next**
 ![Open Assistant](Doc/AudioCodesPVABot.png)  
 &nbsp;  
 ***Bot Details Tab***  
-On the Bot Details tab, enter a name for the bot definition in
+On the Bot Details tab, enter a name for the bot connection in
 AudioCodes then enter the PVA Bot's secret which you can find by 
 following [these instructions](https://docs.microsoft.com/en-us/power-virtual-agents/configure-web-security#obtain-the-secrets)
 and then click **Next**  
