@@ -275,7 +275,8 @@ Open the [AudioCodes portal](http://voiceaiconnect.audiocodes.com/)
 in the browser sign in and if this is the first time you've visited
 the AudioCodes portal, it will look like the screen below and you'll
 select the **Connect your bot to phone number provided by AudioCodes**
-wizard.  
+wizard and then the screens from that point on will match starting with
+the selection of **Microsoft Power Virtual Agent** as the next step.
 &nbsp;  
 ![Open Assistant](Doc/AudioCodesBotWizard.png)  
 &nbsp;  
