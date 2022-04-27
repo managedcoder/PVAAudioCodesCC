@@ -334,7 +334,7 @@ the **Numbers** tab in the menu on the left and click the
 **plus sign** and choose a country, state, and city and click
 **Add Number** and then **Finish**.  
 &nbsp;  
-![Bot Features Tab](Doc/ProvisionPhoneNumber.png) 
+![Bot Features Tab](Doc/ProvisionPhoneNumber.png)  
 &nbsp;  
 ***Connect Your Bot to Phone Number***
 &nbsp;  
