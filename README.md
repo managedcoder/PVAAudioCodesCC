@@ -242,6 +242,9 @@ is a convenient way to test and demo this.
 Copy the text highlighted with red boxes from the command window you
 used to deploy the mock services and paste it into the corresponding
 fields as described above.  
+&nbsp;  
+Finally, click **Save** in upper right of page.  
+&nbsp;  
 ![Open Assistant](Doc/ConfigSettingsValues.png)  
 &nbsp;  
 ***Set Security for Your Assistant***  
