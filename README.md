@@ -121,9 +121,9 @@ If you don't already have the Azure CLI installed, you can install it from
 [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 
 - **Get Azure Functions Core Tools**
->The accelerator includes an Azure Function app that implements a set of surrogate APIs so
+>>The accelerator includes an Azure Function app that implements a set of surrogate APIs so
 you'll need to have the Azure Functions Core Tools v3.X installed.  
-&npsp;  
+&nbsp;  
 To install Azure Function Core Tools v3.X, you'll need to download and run the Core Tools 
 installer, based on your version of Windows:  
 &nbsp;  
@@ -131,7 +131,7 @@ installer, based on your version of Windows:
 [v3.x - Windows 32-bit](https://go.microsoft.com/fwlink/?linkid=2135275)
 
 - **Get .NET SDK**
->The deployment scripts use commands from the .NET SDK which can be downloaded from
+>>The deployment scripts use commands from the .NET SDK which can be downloaded from
 [here](https://dotnet.microsoft.com/en-us/download) if you don't already have it
 
 #### <a name="ForDevelopers"></a>Development Prerequisites  
