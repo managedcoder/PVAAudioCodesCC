@@ -112,7 +112,7 @@ You'll need to download and install PowerShell
 if you don't already have that installed.
 
 - **Get Azure CLI**
-The deployment scripts require Azure CLI version 2.22.0 or newer. You can check which
+>The deployment scripts require Azure CLI version 2.22.0 or newer. You can check which
 version of the Azure CLI you have installed by running this command from command prompt:  
 ```
 az version
@@ -121,17 +121,17 @@ If you don't already have the Azure CLI installed, you can install it from
 [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 
 - **Get Azure Functions Core Tools**
-The accelerator includes an Azure Function app that implements a set of surrogate APIs so
+>The accelerator includes an Azure Function app that implements a set of surrogate APIs so
 you'll need to have the Azure Functions Core Tools v3.X installed.  
 &npsp;  
 To install Azure Function Core Tools v3.X, you'll need to download and run the Core Tools 
-installer, based on your version of Windows:
-
-[v3.x - Windows 64-bit](https://go.microsoft.com/fwlink/?linkid=2135274)
+installer, based on your version of Windows:  
+&nbsp;  
+[v3.x - Windows 64-bit](https://go.microsoft.com/fwlink/?linkid=2135274)  
 [v3.x - Windows 32-bit](https://go.microsoft.com/fwlink/?linkid=2135275)
 
 - **Get .NET SDK**
-The deployment scripts use commands from the .NET SDK which can be downloaded from
+>The deployment scripts use commands from the .NET SDK which can be downloaded from
 [here](https://dotnet.microsoft.com/en-us/download) if you don't already have it
 
 #### <a name="ForDevelopers"></a>Development Prerequisites  
