@@ -88,10 +88,10 @@ Cloud Edition Plus and you can upgrade your trial subscription later if you want
 to leverage those features without having to reinstall the accelerator.  
 
 - **Get PVA Trial Account**  
-To sign up for a free trial account for Power Virtual Agents click [here](https://go.microsoft.com/fwlink/?LinkId=2107702&clcid=0x409&cmpid=pva-home-hero-sta-buildchatbots)
+>To sign up for a free trial account for Power Virtual Agents click [here](https://go.microsoft.com/fwlink/?LinkId=2107702&clcid=0x409&cmpid=pva-home-hero-sta-buildchatbots)
 
 - **Get AudioCodes Trial Account**  
-Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/signing_up_to_cloud.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257C_____2)
+>Follow the instructions [here](https://techdocs.audiocodes.com/voice-ai-connect/#VAIG_Cloud/signing_up_to_cloud.htm?TocPath=VoiceAI%2520Connect%2520Cloud%257C_____2)
 to sign up for a free trial account for AudioCodes Voice AI Connect Cloud
 Edition.  
 &nbsp;  
@@ -102,7 +102,7 @@ When you've successfully created a trial account, confirmed your account, and
 successfully signed in, you can stop there and will come back to this AudioCodes
 portal later in the [Telephony Configuration step](#TelephonyConfiguration)  
 - **Get PowerShell**  
-To make it as easy as possible to get started quickly, a PowerShell script is
+>To make it as easy as possible to get started quickly, a PowerShell script is
 used in the **Getting Started** steps to install and configure various Azure
 services so you don't have to worry about those details and the accelerator
 will just work when you're finish setup.  
@@ -114,14 +114,14 @@ if you don't already have that installed.
 - **Get Azure CLI**
 >The deployment scripts require Azure CLI version 2.22.0 or newer. You can check which
 version of the Azure CLI you have installed by running this command from command prompt:  
-```
+>```
 az version
 ```  
-If you don't already have the Azure CLI installed, you can install it from
+>If you don't already have the Azure CLI installed, you can install it from
 [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 
 - **Get Azure Functions Core Tools**
->>The accelerator includes an Azure Function app that implements a set of surrogate APIs so
+>The accelerator includes an Azure Function app that implements a set of surrogate APIs so
 you'll need to have the Azure Functions Core Tools v3.X installed.  
 &nbsp;  
 To install Azure Function Core Tools v3.X, you'll need to download and run the Core Tools 
@@ -131,7 +131,7 @@ installer, based on your version of Windows:
 [v3.x - Windows 32-bit](https://go.microsoft.com/fwlink/?linkid=2135275)
 
 - **Get .NET SDK**
->>The deployment scripts use commands from the .NET SDK which can be downloaded from
+>The deployment scripts use commands from the .NET SDK which can be downloaded from
 [here](https://dotnet.microsoft.com/en-us/download) if you don't already have it
 
 #### <a name="ForDevelopers"></a>Development Prerequisites  
