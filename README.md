@@ -113,7 +113,7 @@ if you don't already have that installed.
 
 - **Get Azure CLI**
 The deployment scripts require Azure CLI version 2.22.0 or newer. You can check which
-version of the Azure CLI you have installed by running this command from command prompt:   
+version of the Azure CLI you have installed by running this command from command prompt:  
 ```
 az version
 ```  
