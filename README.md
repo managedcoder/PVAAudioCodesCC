@@ -2,7 +2,7 @@
 
 ![Figure 1: Accelerator Architecture Diagram](Doc/ContactCenterArchitecture.png)  
 
-This accelerator minimizes the development time required to build a voice-bot and shows you how to connect it to a telephony channel.  It contains building blocks and pre-built scenarios and explains everything you need to know to get a functioning baseline up and running and taking phone calls very quickly.
+This accelerator minimizes the development time required to build a voice-bot and shows you how to connect it to a telephony channel.  It contains building blocks and pre-built scenarios and explains everything you need to know to get a functioning baseline up and running and taking phone calls quickly.
 	
 **Building Blocks**  
 The accelerator includes a set of executable how-to's that provide "implementation snippets" for various common contact center tasks. You can use them "as is" or tailor and extend them to meet the needs of your solution.
