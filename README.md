@@ -1,59 +1,21 @@
-# PVA / AudioCodes Contact Center Accelerator
+# PVA / AudioCodes Voice-bot Accelerator
 
-The goal of a modern contact center solution is to provide a customer experience that rivals
-that of an experienced human agent and do that at scale and at a fraction of the cost of a
-traditional contact center.  Achieving that goal requires a solution that can transform
-conversation into a coordinated business process that weaves together a core set of solution
-elements to respond effectively. This solution accelerator provides the building blocks and
-blueprint for how to use Power Virtual Agent and AudioCodes VoiceAI Connect Cloud Edition
-to build a modern contact center assistant.
+![Figure 1: Accelerator Architecture Diagram](Doc/ContactCenterArchitecture.png)  
 
-## Modern Contact Center Solution
+This accelerator minimizes the development time required to build a voice-bot and shows you how to connect it to a telephony channel.  It contains building blocks and pre-built scenarios and explains everything you need to know to get a functioning baseline up and running and taking phone calls very quickly.
+	
+**Building Blocks**  
+The accelerator includes a set of executable how-to's that provide "implementation snippets" for various common contact center tasks. You can use them "as is" or tailor and extend them to meet the needs of your solution.
 
-A modern contact center solution involves the effective integration of the key systems and
-services shown in **Figure 1**. The primary goal of this accelerator is to identify these
-systems and services and show how each can be effectively integrated into a modern contact
-center solution to provide maximum capability. To accomplish this goal, the accelerator
-includes a set of building blocks and blueprints that address common contact center tasks
-and scenarios.  You can think of the systems and services in **Figure 1** as sort of a
-checklist of key topic areas you need to give careful consideration in order to build an
-effective modern contact center solution.  
-&nbsp;  
-![Figure 1: High-level Subsystem Overview](Doc/ContactCenterCoreElements.png)  
-&nbsp;  
-**<a name="HighLevelSubsystemOverview"></a>Figure 1: Contact Center Core Elements**  
+**Scenarios**  
+The scenarios included in the accelerator are example implementations of common contact center scenarios like "order status" or "product trouble shooting".
 
-## &nbsp;  
-
-## Table of Contents  
-[SOLUTION OVERVIEW](#SolutionOverview)  
-[PREREQUISITES](#Prerequisites)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Required Skills  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo-Only Prerequisites  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development Prerequisites  
-[Getting Started](#GettingStarted)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clone the PVA/AudioCodes Contact Center Repo  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Deploy Mock Services  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import, Configure & Publish the PVA / AudioCodes Solution  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Telephony Configuration  
-[Using the Accelerator](#UsingTheAccelerator)  
-[Best Practices](#BestPractices)
-
-## <a name="SolutionOverview"></a>Solution Overview
-
-In the context of a contact center, two disciplines weave each of the various solution
-elements in **Figure 1** together and bring them alive: conversational AI and telephony.
-In this accelerator, the conversational AI discipline is provided by Microsoft's Power
-Virtual Agent (PVA) and telephony is provided by AudioCodes VoiceAI Connect Cloud
-(VAIC-C). **Figure 2** provides an architectural understanding of how those two
-technologies fit together along with the other elements of the accelerator.  In this
-initial version of the accelerator, only four of the seven core elements of 
-**Figure 1** are addressed: Contact Center Assistant, Experiences, Customer Services,
-and Line of Business Integration.  The other three will be addressed as this
-accelerator evolves.
-
-![Figure 2: High-level Subsystem Overview](Doc/ContactCenterArchitecture.png)  
-**<a name="HighLevelSolutionOverview"></a>Figure 2: Accelerator Architecture Diagram**  
+**Best Practices**  
+The [best practices section](BestPractices) discusses important contact center topics and provide insight and effective approaches for addressing contact center challenges.
+	
+These short videos will help you understand what's included in the accelerator and how to get started quickly:
+* [Accelerator Overview Video](https://aka.ms/pva-vaicc-tour)
+* [Getting Started Video](https://aka.ms/pva-vaicc-start)
 
 ## <a name="Prerequisites"></a>Prerequisites
 #### Required Skills
