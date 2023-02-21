@@ -11,7 +11,7 @@ The accelerator includes a set of executable how-to's that provide "implementati
 The scenarios included in the accelerator are example implementations of common contact center scenarios like "order status" or "product trouble shooting".
 
 **Best Practices**  
-The [best practices section](#BestPractices) discusses important contact center topics and provide insight and effective approaches for addressing contact center challenges.
+The [best practices section](#bestpractices) discusses important contact center topics and provide insight and effective approaches for addressing contact center challenges.
 	
 These short videos will help you understand what's included in the accelerator and how to get started quickly:
 * [Accelerator Overview Video](https://aka.ms/pva-vaicc-tour)
@@ -384,7 +384,7 @@ The accelerator is spread across several portals and a number of assets so we've
 created [this video](https://aka.ms/pva-vaicc-tour) to help you understand what's
 included in the accelerator and how to use it effectively.
 
-## <a name="BestPractices"></a>Best Practices
+## <a name="bestpractices"></a>Best Practices
 As this accelerator evolves, this section will capture and discuss important
 contact center topics and common challenges and provide insight and effective
 approaches for addressing them.
