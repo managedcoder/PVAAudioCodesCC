@@ -37,7 +37,7 @@ aren't starting from first principles.
 #### Demo-Only Prerequisites
 You don't need to be a developer or have development tools installed in order to
 get this accelerator up and running and demo it but you will if you wanted to
-modify and extend this accelerator (see [Development Tools](#ForDevelopers) section
+modify and extend this accelerator (see [Development Tools](#fordevelopers) section
 for details). The only thing you need to run this accelerator and try it out is
 access to Microsoft's Power Virtual Agent and AudioCodes VoiceAI Connect Cloud
 Edition. If you don't already have access to either of those services, you can
@@ -96,7 +96,7 @@ installer, based on your version of Windows:
 >The deployment scripts use commands from the .NET SDK which can be downloaded from
 [here](https://dotnet.microsoft.com/en-us/download) if you don't already have it
 
-#### <a name="ForDevelopers"></a>Development Prerequisites  
+#### <a name="fordevelopers"></a>Development Prerequisites  
 In addition to the demo-only prerequisites, if you want to explore or extend the
 more advanced and technical aspects of this accelerator, you'll need to install
 the following tools.  
